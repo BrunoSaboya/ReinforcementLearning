@@ -27,7 +27,7 @@ def main():
                 break
 
         print(f"Episódio {episode} finalizado com recompensa total: {total_reward}\n")
-        time.sleep(0.01)
+        time.sleep(0.1)
 
     env.close()
 
